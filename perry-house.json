@@ -2,10 +2,10 @@
   {
     "@context": "http://schema.org",
     "@type": ["HotelRoom", "Product"],
-    "name": "Rambla South/City/SQ Deluxe King Studio",
-    "url": "https://www.rambla.com.au/locations/south-city-sq/rooms",
-    "image": "https://assets-global.website-files.com/6421b2dae4b10356f0d589db/64f569b787a8d9a3992dfb4d_deluxeking_bed_view.webp",
-    "description": "Need some extra space? We got you...",
+    "name": "Rambla Perry House 1 Bedroom Apartment",
+    "url": "https://www.rambla.com.au/locations/perry-house/rooms",
+    "image": "https://assets-global.website-files.com/64214e205d2729b7f174876c/645cbb2b6bc0f523d254f01d_1bedappt.webp",
+    "description": "When accommodation in Fortitude Valley looks this good, there’s no way you can turn it down. Enjoy the best of apartment hotel living in our 1 Bedroom Apartment, equipped with all the essentials and a few carefully chosen decor touches to create the perfect home-work space for any length of stay.",
     "brand": { "@type": "Brand", "name": "Rambla" },
     "bed": { "@type": "BedDetails", "numberOfBeds": 1 },
     "occupancy": {
@@ -17,46 +17,99 @@
       "@type": "Offer",
       "url": "",
       "priceCurrency": "AUD",
-      "price": "206.72"
+      "price": "258.41"
     },
     "amenityFeature": [
       {
         "@type": "LocationFeatureSpecification",
         "value": "True",
-        "name": "30-38sqm Space"
+        "name": "51-54sqm of rooms"
       },
       {
         "@type": "LocationFeatureSpecification",
         "value": "True",
-        "name": "Fully equipped kitchenette"
+        "name": "King Bed"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": "True",
+        "name": "Private Bathroom"
       }
     ]
   },
   {
     "@context": "http://schema.org",
     "@type": ["HotelRoom", "Product"],
-    "name": "Rambla South/City/SQ Executive King Studio",
-    "url": "https://www.rambla.com.au/locations/south-city-sq/rooms",
-    "image": "https://assets-global.website-files.com/6421b2dae4b10356f0d589db/64f56a0b4ee87c113f8aba52__executiveking_bed_view_alt.webp",
-    "description": "Hey, big spender, we like your style...",
+    "name": "Rambla Perry House 2 Bedroom",
+    "url": "https://www.rambla.com.au/locations/perry-house/rooms",
+    "image": "https://assets-global.website-files.com/6421b2dae4b10356f0d589db/645cbdeaacfcd1cc483f633f_2bed_livingspace.webp",
+    "description": "Travel is always better in pairs. Savour the sanctuary of your own space with our 2 Bedroom Apartment, where dual living is a breeze and home comforts are always at your fingertips. Take advantage of two bedrooms, full furnishings and fresh views from your private balcony.",
     "brand": { "@type": "Brand", "name": "Rambla" },
-    "bed": { "@type": "BedDetails", "numberOfBeds": 1 },
+    "bed": { "@type": "BedDetails", "numberOfBeds": 2 },
     "occupancy": {
       "@type": "QuantitativeValue",
-      "maxValue": "3",
+      "maxValue": "4",
       "unitCode": "C62"
     },
     "offers": {
       "@type": "Offer",
       "url": "",
       "priceCurrency": "AUD",
-      "price": "219.52"
+      "price": "248.63"
     },
     "amenityFeature": [
       {
         "@type": "LocationFeatureSpecification",
         "value": "True",
-        "name": "40sqm of space"
+        "name": "63sqm of Room"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": "True",
+        "name": "Furnished Balcony"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": "True",
+        "name": "King bed in master bedroom, Queen bed in second bedroom"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["HotelRoom", "Product"],
+    "name": "Rambla Perry House 2 Bedroom 2 Bathroom Executive Apartment",
+    "url": "https://www.rambla.com.au/locations/perry-house/rooms",
+    "image": "https://assets-global.website-files.com/6421b2dae4b10356f0d589db/645cbf53354807364823c8f1_2bed2bath_bedroom1.webp",
+    "description": "Step into ultimate Bowen Hills accommodation and live like a [superior] king with our 2 Bedroom 2 Bathroom Executive Apartment. Perfect for families, couples or those who prefer a little extra space. Customise your hybrid work space with smart tech features direct from your phone before diving into work in your spacious home office. Step outside for fresh air when you crave it and head next door for coffee when you need.",
+    "brand": { "@type": "Brand", "name": "Rambla" },
+    "bed": { "@type": "BedDetails", "numberOfBeds": 3 },
+    "occupancy": {
+      "@type": "QuantitativeValue",
+      "maxValue": "5",
+      "unitCode": "C62"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "",
+      "priceCurrency": "AUD",
+      "price": "265.63"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": "True",
+        "name": "69-72sqm Room"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": "True",
+        "name": "Ensuite in Master Bedroom"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": "True",
+        "name": "1 King bed per room or 1 King and 2 King singles per room"
       }
     ]
   }
