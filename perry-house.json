@@ -1,0 +1,63 @@
+[
+  {
+    "@context": "http://schema.org",
+    "@type": ["HotelRoom", "Product"],
+    "name": "Rambla South/City/SQ Deluxe King Studio",
+    "url": "https://www.rambla.com.au/locations/south-city-sq/rooms",
+    "image": "https://assets-global.website-files.com/6421b2dae4b10356f0d589db/64f569b787a8d9a3992dfb4d_deluxeking_bed_view.webp",
+    "description": "Need some extra space? We got you...",
+    "brand": { "@type": "Brand", "name": "Rambla" },
+    "bed": { "@type": "BedDetails", "numberOfBeds": 1 },
+    "occupancy": {
+      "@type": "QuantitativeValue",
+      "maxValue": "3",
+      "unitCode": "C62"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "",
+      "priceCurrency": "AUD",
+      "price": "206.72"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": "True",
+        "name": "30-38sqm Space"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": "True",
+        "name": "Fully equipped kitchenette"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": ["HotelRoom", "Product"],
+    "name": "Rambla South/City/SQ Executive King Studio",
+    "url": "https://www.rambla.com.au/locations/south-city-sq/rooms",
+    "image": "https://assets-global.website-files.com/6421b2dae4b10356f0d589db/64f56a0b4ee87c113f8aba52__executiveking_bed_view_alt.webp",
+    "description": "Hey, big spender, we like your style...",
+    "brand": { "@type": "Brand", "name": "Rambla" },
+    "bed": { "@type": "BedDetails", "numberOfBeds": 1 },
+    "occupancy": {
+      "@type": "QuantitativeValue",
+      "maxValue": "3",
+      "unitCode": "C62"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "",
+      "priceCurrency": "AUD",
+      "price": "219.52"
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "value": "True",
+        "name": "40sqm of space"
+      }
+    ]
+  }
+]
